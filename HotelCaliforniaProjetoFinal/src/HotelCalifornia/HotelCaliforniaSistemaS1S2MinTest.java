@@ -1046,6 +1046,7 @@ class HotelCaliforniaSistemaS1S2MinTest {
 			assertTrue(hce.getMessage().toUpperCase().contains("RESERVA NAO ENCONTRADA"));
 		}
 
+		
 		@Test
 		@DisplayName("CA.06.1: Listar Reservas de Todos os Clientes: o proprio cliente")
 		public void testListarReservasAtivasProprioCliente() {
